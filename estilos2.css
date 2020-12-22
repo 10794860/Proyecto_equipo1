@@ -11,3 +11,23 @@ h1.montefuji {
   text-align: justify;
   background-color: white
 }
+#div5 {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 100;
+  margin-left: 80%;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+  background-color: white
+}
+td.one {
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 60%; 
+}
+td.two {
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 70%; 
+}
