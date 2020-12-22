@@ -31,3 +31,7 @@ td.two {
   margin-left: 30px;
   margin-right: 70%; 
 }
+
+body {
+  background-image: url(imágns/mapajapon.png)
+}	
