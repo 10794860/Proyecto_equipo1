@@ -3,7 +3,7 @@ h1{
   color: rgb(0, 0, 255);
 }
 div.backgroun {
-  background: url(images/cielou.jpg) repeat; 
+  background: url(images/avion3.jpg) repeat; 
   border: 2px solid black;
 }
 div.transbox {
@@ -13,7 +13,7 @@ div.transbox {
   opacity: 0.4;
 }
 body{
-   background-image: url("images/mapa.jpg");
+   background-image: url("images/mapa1.png");
    background-repeat: repeat-y;
 }
 
@@ -71,7 +71,8 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: tomato;
+ 
 }
 div.canon{
   height: 200px;
