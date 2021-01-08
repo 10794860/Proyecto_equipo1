@@ -72,7 +72,6 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
- 
 }
 div.canon{
   height: 200px;
@@ -86,12 +85,30 @@ p{
  div.har{
   height: 200px;
   width: 300px;
-  background: url(images/har.jpg) repeat; 
+  background: url(images/har22.jpg) repeat; 
   border: 2px solid black;
 }
 div.monte{
   height: 200px;
   width: 300px;
-  background: url(images/monte.jpg) repeat; 
+  background: url(images/monte1.jpg) repeat; 
+  border: 2px solid black;
+}
+div.cast{
+  height: 200px;
+  width: 300px;
+  background: url(images/castillo2.jpg) repeat; 
+  border: 2px solid black;
+}
+div.haii{
+  height: 200px;
+  width: 300px;
+  background: url(images/haiiii.jpg) repeat; 
+  border: 2px solid black;
+}
+div.val{
+  height: 200px;
+  width: 300px;
+  background: url(images/vale.jpg) repeat; 
   border: 2px solid black;
 }
