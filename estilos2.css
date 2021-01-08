@@ -33,5 +33,6 @@ td.two {
 }
 
 body {
-  background-image: url(images/mapajapon.png)
+  background-image: url(images/mapajapon.png);
+  font-family: Arial;
 }	
