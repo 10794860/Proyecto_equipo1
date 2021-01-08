@@ -1,49 +1,123 @@
-h1{
-	color:#BD7849;
-	font-size: 40px;
+body.one  {
+   background-image: url("images/mapa hawaii.svg");
+   background-repeat: repeat-y;
 }
-body{
-	font-family: Arial;
+body.uno  {
+   background-image: url("images/valenciana.svg");
+   background-repeat: repeat-y;
 }
-p{
-	color:black;
-	text-align: left;
-	font-size: 30px;
+li.dropdown {
+  display: inline-block;
+   text-align: center;
 }
-p.one{
-	font-size: 19px;
-	color:#2B2B2B;
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
 }
-p.two{
-	font-size: 22px;
-	color: black;
-	margin: 50px 200px 50px;
-	border: 5px solid #BD7849;
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
 }
-p.three{
-	text-align: center;
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
 }
-p.four{
-  border-left: 6px solid #BD7849;
+
+ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ 
 }
-div {
-  border: 3px solid #BD7849;
-  padding: 25px 25px;
+
+li {
+  float: left;
 }
- h1.one{
-	color:#2765A7;
-	font-size: 40px;
-}	
-p.five{
-	font-size: 22px;
-	color: black;
-	margin: 50px 200px 50px;
-	border: 5px solid #2765A7;
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-p.six{
-  border-left: 6px solid #2765A7;
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+ 
 }
-div.one {
-  border: 3px solid #2765A7;
-  padding: 25px 25px;
+
+p.uno{
+  display: block;
+  color: white;
+
+   padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  border: 3px solid black;
+  outline-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #333;
+}
+
+p.ex3 {
+  border: 3px solid black;
+  outline-style: solid;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+h2 {
+ 
+ 
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 40px;
+
+ 
+}
+
+img {
+  opacity: 0.7;
+}
+
+img:hover {
+  opacity: 1.3;
+}
+td.one{
+  margin-top: 70px;
+  margin-left: 40%;
+  margin-right: 60%;
+  border: 0px solid black;
+
+}
+td.uno{
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 40%;
+  border: 0px solid black;
+
 }
