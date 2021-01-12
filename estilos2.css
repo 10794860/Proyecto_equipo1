@@ -42,4 +42,7 @@ h1.castillo {
    text-align: center;
    color: green      
 } 
-
+body.castillo {
+  background-image: url(images/fondocastillo.jpg);
+  background-repeat: repeat-y; 
+}
