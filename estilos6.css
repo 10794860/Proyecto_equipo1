@@ -1,0 +1,49 @@
+h1{
+	color:#BD7849;
+	font-size: 40px;
+}
+body{
+	font-family: Arial;
+}
+p{
+	color:black;
+	text-align: left;
+	font-size: 30px;
+}
+p.one{
+	font-size: 19px;
+	color:#2B2B2B;
+}
+p.two{
+	font-size: 22px;
+	color: black;
+	margin: 50px 200px 50px;
+	border: 5px solid #BD7849;
+}
+p.three{
+	text-align: center;
+}
+p.four{
+  border-left: 6px solid #BD7849;
+}
+div {
+  border: 3px solid #BD7849;
+  padding: 25px 25px;
+}
+ h1.one{
+	color:#2765A7;
+	font-size: 40px;
+}	
+p.five{
+	font-size: 22px;
+	color: black;
+	margin: 50px 200px 50px;
+	border: 5px solid #2765A7;
+}
+p.six{
+  border-left: 6px solid #2765A7;
+}
+div.one {
+  border: 3px solid #2765A7;
+  padding: 25px 25px;
+}
