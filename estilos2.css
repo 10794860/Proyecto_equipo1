@@ -33,6 +33,13 @@ td.two {
 }
 
 body {
-  background-image: url(images/mapajapon.png);
-  font-family: Arial;
+  background-image: url(imágns/mapajapon.png);
+  background-repeat: repeat-y; 
 }	
+	
+h1.castillo {
+   background-color:grey;
+   text-align: center;
+   color: green      
+} 
+
