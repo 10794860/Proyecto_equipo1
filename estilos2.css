@@ -40,7 +40,7 @@ body {
 h1.castillo {
    background-color:grey;
    text-align: center;
-   color: green      
+   color: white      
 } 
 body.castillo {
   background-image: url(images/fondocastillo.jpg);
