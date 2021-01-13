@@ -26,7 +26,7 @@ p.three{
 p.four{
   border-left: 6px solid #BD7849;
 }
-div {
+div.two {
   border: 3px solid #BD7849;
   padding: 25px 25px;
 }
@@ -46,4 +46,60 @@ p.six{
 div.one {
   border: 3px solid #2765A7;
   padding: 25px 25px;
+}
+li.dropdown {
+   display: inline-block;
+   text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ 
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: tomato;
+ 
 }
